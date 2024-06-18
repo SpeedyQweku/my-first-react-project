@@ -1,0 +1,145 @@
+body {
+    /* margin: 0; */
+    /* position: relative; */
+    /* width: 1296px; */
+    /* height: 1884px; */
+    background: #1C1C1C;
+}
+
+.info{
+    font-family: sans-serif;
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;
+    text-align: center;
+    align-items: center;
+    background: #23252C;
+}
+
+.info-image {
+    position: absolute;
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info-name {
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.info-career {
+    margin: 6px 0px 0px 0px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    color: #F3BF99;
+}
+
+.info-site {
+    margin: 8px 0px 0px 0px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+nav {
+    display: flex;
+} 
+
+.info-email-button {
+    width: 115px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 9px 13px 9px 11px;
+    margin: 15px 17px 0px 36px;
+    background: #FFFFFF;
+    background-image: url("./images/Icon.png");
+    background-repeat: no-repeat;
+    background-position: 20%;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.info-linkedin-button {
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 9px 13px 9px 11px;
+    margin: 15px 17px 0px 0px;
+    width: 115px;
+    background: #5093E2;
+    background-image: url("./images/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 10%;
+    border: 1px solid #4f6b96;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.about {
+    position: absolute;
+    width: 317px;
+    height: 399px;
+    left: 181px;
+    top: 415px;
+    background: #1A1B21;
+}
+
+#about-intro {
+    margin-top: 22px;
+    margin-left: 36px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.about > p {
+    margin-left: 36px;
+    color: #DCDCDC;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    inline-size: 250px;
+}
+
+.footer_icon {
+    position: absolute;
+    width: 317px;
+    height: 64px;
+    left: 181px;
+    top: 813px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+
+    
+}
+
+#twit{
+    margin: 17px 30px 10px 64px;
+}
+
+#fb{
+    margin: 17px 30px 10px 0px;
+}
+
+#ig{
+    margin: 17px 30px 10px 0px;
+}
+
+#git{
+    margin: 17px 30px 10px 0px;
+}
